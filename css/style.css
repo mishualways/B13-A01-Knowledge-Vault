@@ -59,12 +59,21 @@ p {
   color: #000000;
   font-size: 16px;
   font-weight: 500;
+  transition: 0.3s;
+}
+.header .navbar .nav-menu a:hover {
+  color: #f95555; 
 }
 
 .header .hero {
-  background: url(../assets/hero-bg.png) center no-repeat;
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.10),
+      rgba(0, 0, 0, 0.35)
+    ), url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  background-position: center;
+  text-align: center ;
   padding: 115px 0px 180px;
 }
 .header .hero .early {
@@ -160,9 +169,11 @@ p {
   border-radius: 100%;
 }
 .notes-card h3 {
+  color: #001931;
   text-align: center;
   font-size: 24px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 .notes-card p {
   line-height: 20px;
@@ -225,6 +236,9 @@ p {
   margin-top: 120px;
   padding: 80px 0px;
 }
+.think h2{
+  text-transform: capitalize;
+}
 .think .btn{
   width: fit-content;
   box-shadow: 10px 10px 50px #00000044;
@@ -233,4 +247,47 @@ p {
   max-width: 610px;
   line-height: 20px;
 }
+
+/* footer style start */
+.footer{
+  background-color: #001931;
+  padding: 120px 0px 38px;
+  margin-top: 120px;
+}
+
+.footer-social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.footer-social p{
+  color: #f7f6f2;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-right: 16px;
+}
+.footer-social .social-icon a{
+  color: black;
+  background-color: #f7f6f2;
+  padding: 3px 3px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.footer-container hr {
+  margin-top: 80px;
+  border: none;
+  height: 1px;
+  background-color: #f7f6f22d;
+}
+.footer-container .copy-right{
+  text-align: center;
+  margin-top: 30px;
+  color: #f7f6f2;
+  font-size: 13px;
+}
+
+/* footer style end */
 /* main style end */
