@@ -138,7 +138,6 @@ p {
   gap: 24px;
   /* flex-wrap: wrap; */
   padding-top: 28px;
-  padding-bottom: 28px;
 }
 .notes-card {
   display: flex;
@@ -169,5 +168,49 @@ p {
   margin-bottom: 0px;
 }
 /* notes style end */
+
+/* knowledge style start */
+.knowledge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 120px;
+}
+
+.knowledge-content span {
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #469165;
+}
+.knowledge-content span {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #469165;
+  margin-bottom: 16px;
+}
+.knowledge-content h2{
+  max-width: 600px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.knowledge-content p{
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.knowledge-content ul li{
+  list-style: none;
+  display: flex;
+  gap: 10px;align-items: center;
+  justify-content: left;
+  margin-bottom: 16px;
+}
+/* knowledge style end */
 
 /* main style end */
